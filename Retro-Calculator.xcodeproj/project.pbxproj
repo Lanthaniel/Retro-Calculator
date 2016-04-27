@@ -12,6 +12,7 @@
 		84FC8EA41CD06194007C5DA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FC8EA21CD06194007C5DA8 /* Main.storyboard */; };
 		84FC8EA61CD06194007C5DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FC8EA51CD06194007C5DA8 /* Assets.xcassets */; };
 		84FC8EA91CD06194007C5DA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FC8EA71CD06194007C5DA8 /* LaunchScreen.storyboard */; };
+		84FC8EB11CD075EC007C5DA8 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84FC8EB01CD075EC007C5DA8 /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		84FC8EA51CD06194007C5DA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FC8EA81CD06194007C5DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FC8EAA1CD06194007C5DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FC8EB01CD075EC007C5DA8 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		84FC8E9D1CD06194007C5DA8 /* Retro-Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				84FC8EB01CD075EC007C5DA8 /* Minecraft.ttf */,
 				84FC8E9E1CD06194007C5DA8 /* AppDelegate.swift */,
 				84FC8EA01CD06194007C5DA8 /* ViewController.swift */,
 				84FC8EA21CD06194007C5DA8 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				84FC8EA91CD06194007C5DA8 /* LaunchScreen.storyboard in Resources */,
 				84FC8EA61CD06194007C5DA8 /* Assets.xcassets in Resources */,
+				84FC8EB11CD075EC007C5DA8 /* Minecraft.ttf in Resources */,
 				84FC8EA41CD06194007C5DA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +290,7 @@
 				84FC8EAF1CD06194007C5DA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

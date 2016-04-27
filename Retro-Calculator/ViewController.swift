@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         case Multiply = "*"
         case Subtract = "-"
         case Add = "+"
+        case Clear = "Clear"
         case Empty = "Empty"
     }
     
@@ -82,10 +83,23 @@ class ViewController: UIViewController {
         processOperation(currentOperation)
     }
     
+    @IBAction func onClearPressed(sender: AnyObject) {
+        processOperation(Operation.Clear)
+    }
+    
+    
     func processOperation(op: Operation) {
         playSound()
         
-        if (currentOperation != Operation.Empty) {
+        
+        if (op == Operation.Clear) {
+            leftValStr = ""
+            rightValStr = ""
+            runningNumber = ""
+            outputLabel.text = "0.0"
+            currentOperation = Operation.Empty
+        }
+        else if (currentOperation != Operation.Empty) {
             //Run some math
             
             //A user selected an operator, but then selected another operator without first entering a number
